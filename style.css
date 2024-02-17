@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.horrorfont {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.smallfont{
+   
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color:#fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
+}
+
+.navigation a:hover
+{
+    color: #333;
+}
+
+
+
+
+.Parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#text {
+    position: absolute;
+    text-shadow: 2px 4px 5px #f9f9f9;
+
+}
+
+.Parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.Parallax img#gate-left {
+    transform: translateX(-282px);
+}
+
+.Parallax img#gate-right {
+    transform: translateX(305px);
+}
+.Parallax img#grass {
+    padding-bottom:200px ;
+}
+
+.sec
+{
+    position: relative;
+    background: #020912;
+    padding: 30px 100px;
+}
+.sec h2{
+    font-size: 3em;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.sec p{
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.neu1{  
+box-shadow:  35px 35px 70px #010407,
+             -35px -35px 70px #030e1d;
+}
+
+
+
+
+ 
+.progress-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 10px;
+    border-radius: 25px;
+  }
+  
+.progress {
+    height: 100%;
+    border-radius: 25px;
+  }
+.hgfgv{
+    background:#e72006;
+}
+  
