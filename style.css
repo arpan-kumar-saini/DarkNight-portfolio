@@ -28,6 +28,8 @@
 body{
     min-height: 100vh;
     overflow-x: hidden;
+    -ms-overflow-style: none;
+    
 }
 
 header{
@@ -123,6 +125,9 @@ header{
     text-align: justify;
 }
 
+
+/* this neumorphic effect */
+
 .neu1{  
 box-shadow:  35px 35px 70px #010407,
              -35px -35px 70px #030e1d;
@@ -130,7 +135,7 @@ box-shadow:  35px 35px 70px #010407,
 
 
 
-
+/* this is for skills bars */
  
 .progress-bar {
     width: 100%;
@@ -144,6 +149,47 @@ box-shadow:  35px 35px 70px #010407,
     border-radius: 25px;
   }
 .hgfgv{
-    background:#e72006;
+    background:#ff9b06;
 }
   
+
+
+
+
+/* this the tabs logic css */
+ 
+
+/* Style for each tab */
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 5px;   
+    cursor: pointer;
+}
+
+/* Style for active tab */
+.tab.active {
+    background-color:#e72006;
+    border-bottom: none;
+}
+
+/* Style for tab content */
+.tab-content {
+    display: none;
+    padding: 20px;    
+}
+/* Show active tab content */
+.tab-content.active {
+    display: block;
+}
+
+
+/* .vertical-line */
+.vertical-line {
+    border-left: 2px solid #ffffff; /* Change the color and thickness as needed */
+    height: 100px; /* Adjust the height of the line */
+}
+
+
+
+
