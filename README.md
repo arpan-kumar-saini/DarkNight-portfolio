@@ -4,7 +4,7 @@
 <br />
 <div align="center" id='readme-top'>
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://arpansaini.netlify.app/darkportfolio.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/arpan-kumar-saini/demo-images/blob/main/harry_potter_DarkNight_log.jpeg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">DarkNight-portfolio</h3>
