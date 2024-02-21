@@ -38,3 +38,12 @@ function openTab(evt, tabName) {
 document.getElementById("tab1").style.display = "block";
 document.getElementsByClassName("tab")[0].classList.add("active");
 
+
+
+let audio=document.getElementById("Audio");
+
+window.onload = function()
+{
+    audio.play();
+}
+
